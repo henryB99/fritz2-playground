@@ -7,9 +7,10 @@ plugins {
 repositories {
     mavenLocal()
     mavenCentral()
+    maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
 }
 
-val fritz2Version = "0.14"
+val fritz2Version = "0.14-SNAPSHOT"
 
 //group = "my.fritz2.app"
 //version = "0.0.1-SNAPSHOT"
